@@ -19,8 +19,12 @@ if(cardTwo === cardFour){
 //get an element with the id of gameboard; set to variable//
 var gameBoard = document.getElementById('game-board');
 //for loop that creates an HTML element for each card.//
-for(var card     Divs=0; cardDivs<4; cardDivs++) {
-	document.createElement("div").className = 'card'
-}
 //each HTML element should be a div, and have the class card)//
+for(var i=0; i<4; i++) {
+	var cardDiv = document.createElement("div")
+	cardDiv.className = 'card';
+	gameBoard.appendChild(cardDiv);
+}
+
+
 
