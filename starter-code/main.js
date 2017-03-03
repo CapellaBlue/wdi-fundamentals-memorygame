@@ -28,5 +28,7 @@ var createCards = function() {
 	gameBoard.appendChild(cardDiv);
 	}
 }
+//call the function:)//
+createCards();
 
 
